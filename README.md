@@ -20,8 +20,7 @@ detalii si va fi redirectionat pentru a introduce noi date.
 Daca datele introduse sunt valide, aplicatia va procesa solicitarea, verificand daca noua tura respecta 
 reglementarile din legislatia muncii si din regulamentul de ordine interioara: perioada minima de repaus 
 de la ultima tura efectuata, data si ora de inceput si de final (pentru ture de dimineata/dupamasa/noapte/
-weekend), numarul maxim de asistente care pot lucra simultan in acelasi interval de timp pe acelasi tip de
-tura etc.).
+weekend), numarul maxim de asistente care pot lucra simultan pe acelasi tip de tura etc.).
 	
 Daca tura este eligibila, va fi salvata in baza de date, iar user-ul va fi informat cu privire la noua tura
 creata. Daca tura nu este eligibila, user-ul va fi informat cu privire la aceasta si se vor afisa toate 
