@@ -6,6 +6,9 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Reserved shift details</title>
+<style>
+body  {background-color: greenyellow;}
+</style>
 </head>
 <body>
 Tura s-a salvat cu succes si are urmatoarele date: <p>
@@ -17,7 +20,7 @@ Tura s-a salvat cu succes si are urmatoarele date: <p>
 	%>
 	
 	<form action="Logout">
-	<input type="submit" value="logout">
+	<input type="submit" value="Logout">
 	</form>
 </body>
 </html>

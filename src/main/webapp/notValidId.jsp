@@ -4,17 +4,15 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Date Formatter Error</title>
+<title>Inexistent nurse Id</title>
 <style>
 body  {background-color: greenyellow;}
 </style>
 </head>
 <body>
-The date you have entered is not valid. <p>
-Please make sure you follow the "dd/MM/yyyy HH" format.<p>
-<p>
+Unfortunately, the Id you have entered is not valid.<p>
+Please make sure you type your personal Id number.<p>
 <p>
 <a href="http://localhost:8080/WebAppHospitalManagement/index.jsp">Click here to re-enter the shift details</a>
-
 </body>
 </html>

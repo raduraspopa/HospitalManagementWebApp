@@ -5,6 +5,9 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Date Formatter Error</title>
+<style>
+body  {background-color: greenyellow;}
+</style>
 </head>
 <body>
 The date you have entered is not valid. <p>

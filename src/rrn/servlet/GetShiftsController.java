@@ -51,10 +51,7 @@ public class GetShiftsController extends HttpServlet {
 		endDate = request.getParameter("shiftEndDate");
 		
 		if((nID<=0)||(nID>nrOfNurses)) {
-			System.out.println("Id asistenta inexistent");
-			/* afisam mesaj cum ca Id-ul introdus trebuie sa fie intre 0 si nrOfNurses 
-			 * si punem un buton catre index pt a reintroduce date valide
-			 * */
+			response.sendRedirect("notValidId.jsp");
 		}
 		
 		if ((ShiftsService.isValidDate(startDate))&&(ShiftsService.isValidDate(endDate))) {
@@ -80,7 +77,7 @@ public class GetShiftsController extends HttpServlet {
 
 		 else if(areDatesValid==false){
 		  
-		 response.sendRedirect( "notValidDate.jsp");
+		 response.sendRedirect("notValidDate.jsp");
 		 
 		 } else if((areDatesValid==true)&&(!isNewShiftEligible)) {
 		  

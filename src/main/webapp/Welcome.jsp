@@ -5,6 +5,10 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Welcome</title>
+<style>
+body     {background-color: greenyellow;}
+input    {display: table-column;}
+</style>
 </head>
 <body>
 	Welcome to shifts scheduler!
@@ -14,7 +18,7 @@
 	<form action="Login">
 	Enter username: <input type="text" name="uname"><br>
 	Enter password: <input type="password" name="pass"><br>
-	<input type="submit" value="login">
+	<input type="submit" value="Login">
 	</form>
 </body>
 </html>
